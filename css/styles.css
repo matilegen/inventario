@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+header{
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+main{
+    padding: 20px;
+}
+.tablaContenido{
+    width: 100%;
+    overflow-x: auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+tr:hover{
+    background-color: #ddd;
+}
+th{
+    background-color: #4caf50;
+    color: white;
+}
+footer{
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
